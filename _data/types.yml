@@ -3,15 +3,9 @@
   sub: ML
 - name: Computer Vision
   sub: CV
-- name: Natural Language Proc
-  sub: NLP
-- name: Robotics
-  sub: RO
-- name: Speech/SigProc
-  sub: SP
 - name: Data Mining
   sub: DM
-- name: Computational Social Sciences
+- name: Computational Social Science
   sub: CSS
 - name: AI ethics
   sub: AIE

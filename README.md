@@ -1,6 +1,6 @@
 ## Fair Deadlines
 
-Countdown timers to keep track of a bunch of fair-ML / AI ethics / computational social sciences conference deadlines.
+Countdown timers to keep track of a bunch of fair-ML / AI ethics / computational social science conference deadlines.
 
 ## Contributing
 
