@@ -274,8 +274,8 @@
             $('#' + subs[i] + '-checkbox').prop('checked', true);
           }
         }
-        store.set('{{ site.domain | append:site.baseurl }}', subs);
-        window.history.pushState('', '', '/?sub=' + subs.join());
+        store.set('{{ site.domain }}', subs);
+        window.history.pushState('', '', '{{site.baseurl}}' + '/?sub=' + subs.join());
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -298,8 +298,8 @@
             }
           }
           console.log(subs);
-          store.set('{{ site.domain | append:site.baseurl }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+          store.set('{{ site.domain }}', subs);
+          window.history.pushState('', '', '{{site.baseurl}}' + '/?sub=' + subs.join());
         });
 
         // Event handler on sub click
@@ -315,8 +315,8 @@
           $('.' + csub + '-conf').show();
           subs = [csub];
           console.log(subs);
-          store.set('{{ site.domain | append:site.baseurl }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+          store.set('{{ site.domain }}', subs);
+          window.history.pushState('', '', '{{site.baseurl}}' + '/?sub=' + subs.join());
         });
     });
     </script>
