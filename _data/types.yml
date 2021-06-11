@@ -11,3 +11,9 @@
   sub: SP
 - name: Data Mining
   sub: DM
+- name: Computational Social Sciences
+  sub: CSS
+- name: AI ethics
+  sub: AIE
+- name: Fair-ML
+  sub: FML

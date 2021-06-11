@@ -1,17 +1,13 @@
-title: AI Conference Deadlines # (Maintained by @abhshkdz)
-# email: abhshkdz@vt.edu
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Abhishek Das
+title: Fair Conference Deadlines # (Maintained by @hcorinna)
+description: Countdowns to fair-ML / AI ethics / computational social sciences conference deadlines
+author: Corinna Hertweck
 
-domain: "aideadlin.es"
-baseurl: ""
+domain: "hcorinna.github.io"
+baseurl: "/fair-deadlines"
 
-twitter_username: abhshkdz
-twitter_hashtag: machinelearning
-github_username: abhshkdz
-github_repo: ai-deadlines
+github_username: hcorinna
+github_repo: fair-deadlines
 
 markdown: kramdown
-ga_id: UA-36274081-2
 
 include: ['_pages']

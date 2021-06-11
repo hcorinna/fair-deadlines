@@ -1,5 +1,15 @@
 ---
 
+- title: EAAMO
+  year: 2021
+  id: eaamo21
+  link: https://eaamo.org/
+  deadline: '2021-06-14 16:59:59'
+  timezone: America/New_York
+  date: October 5-9, 2021
+  place: Virtual
+  sub: AIE
+
 - title: WACV
   hindex: 54
   year: 2022

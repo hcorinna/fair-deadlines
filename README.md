@@ -17,7 +17,7 @@ To add or update a deadline:
 
 ## Origin
 
-This is a fork of [aideadlin.es](https://aideadlin.es/) by [@abhshkdz](https://github.com/abhshkdz)
+This is a fork of [aideadlin.es][2] by [@abhshkdz](https://github.com/abhshkdz)
 
 ## Forks & other useful listings
 
@@ -35,7 +35,7 @@ This is a fork of [aideadlin.es](https://aideadlin.es/) by [@abhshkdz](https://g
 [MIT][1]
 
 [1]: https://abhshkdz.mit-license.org/
-[2]: http://aideadlin.es/
+[2]: https://aideadlin.es/
 [3]: https://github.com/LukasMosser/geo-deadlines
 [4]: https://github.com/tbryn/neuro-deadlines
 [5]: https://github.com/dieg0as/ai-challenge-deadlines
