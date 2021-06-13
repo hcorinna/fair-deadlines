@@ -1,13 +1,11 @@
 ---
-- name: Machine Learning
-  sub: ML
-- name: Computer Vision
-  sub: CV
-- name: Data Mining
-  sub: DM
-- name: Computational Social Science
-  sub: CSS
 - name: AI ethics
   sub: AIE
-- name: Fair-ML
-  sub: FML
+- name: Computational Social Science
+  sub: CSS
+- name: Machine Learning
+  sub: ML
+- name: Data Mining
+  sub: DM
+- name: Computer Vision
+  sub: CV
