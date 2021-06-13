@@ -1,6 +1,4 @@
 ---
-# Look for the right flag on https://openmoji.org/library/#group=flags%2Fcountry-flag
-# hindex is not used, so you don't need to add it
 
 - title: CHI
   year: 2022
@@ -40,7 +38,6 @@
   sub: AIE
 
 - title: NeurIPS
-  hindex: 198
   year: 2021
   id: neurips21
   name: 35th Conference on Neural Information Processing Systems
@@ -54,7 +51,6 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 21, 2021'
 
 - title: CIKM
-  hindex: 48
   year: 2021
   id: cikm21
   name: 30th ACM International Conference on Information and Knowledge Management
@@ -68,7 +64,6 @@
   sub: DM
 
 - title: ICDM
-  hindex: -1
   year: 2021
   id: icdm21
   name: 21st IEEE International Conference on Data Mining
@@ -81,7 +76,6 @@
   sub: DM
 
 - title: ACML
-  hindex: 17
   year: 2021
   id: acml21
   link: http://www.acml-conf.org/2021
@@ -93,7 +87,6 @@
   sub: ML
 
 - title: BMVC
-  hindex: 57
   year: 2021
   id: bmvc21
   name: The British Machine Vision Conference
@@ -107,7 +100,6 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on June 18, 2021. More info <a href=''https://britishmachinevisionassociation.github.io/bmvc''>here</a>.'
 
 - title: RecSys
-  hindex: 45
   year: 2021
   id: recsys21
   name: 15th ACM Conference on Recommender Systems
@@ -122,7 +114,6 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2020. More info <a href=''https://recsys.acm.org/recsys21/dates/''>here</a>.'
 
 - title: AAAI
-  hindex: 95
   year: 2022
   id: aaai22
   name: 36th AAAI Conference on Artificial Intelligence
@@ -137,7 +128,6 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on August 30, 2021'
 
 - title: AAMAS
-  hindex: 25
   year: 2021
   id: aamas21
   name: 20th International Conference on Autonomous Agents and Multiagent Systems
@@ -152,7 +142,6 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
 
 - title: AISTATS
-  hindex: 52
   year: 2021
   id: aistats21
   name: 24th International Conference on Artificial Intelligence and Statistics
@@ -166,7 +155,6 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
 
 - title: WWW
-  hindex: 70
   year: 2022
   id: www22
   name: The Web Conference
@@ -181,7 +169,6 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
 - title: CVPR
-  hindex: 299
   year: 2021
   id: cvpr21
   name: Conference on Computer Vision and Pattern Recognition
@@ -194,7 +181,6 @@
   sub: CV
 
 - title: CHIL
-  hindex: -1
   year: 2021
   id: chil21
   link: https://www.chilconference.org/
@@ -209,7 +195,6 @@
     href=''https://www.chilconference.org''>here</a>.'
 
 - title: IJCAI
-  hindex: 67
   year: 2021
   id: ijcai21
   name: 30th International Joint Conference on Artificial Intelligence
@@ -223,7 +208,6 @@
   sub: ML
 
 - title: ICML
-  hindex: 135
   year: 2021
   id: icml21
   name: 38th International Conference on Machine Learning
@@ -238,7 +222,6 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 28, 2021. More info <a href=''https://icml.cc/Conferences/2021/''>here</a>.'
 
 - title: KDD
-  hindex: 30
   year: 2021
   id: kdd21
   name: Knowledge Discovery and Data Mining
@@ -251,7 +234,6 @@
   sub: DM
 
 - title: SIGIR
-  hindex: 57
   year: 2021
   id: sigir21
   name: 44th International ACM SIGIR Conference on Research and Development in Information Retrieval
@@ -265,7 +247,6 @@
   sub: DM
 
 - title: UAI
-  hindex: 33
   year: 2021
   id: uai21
   name: Conference on Uncertainty in Artificial Intelligence
@@ -277,7 +258,6 @@
   sub: ML
 
 - title: ECML-PKDD
-  hindex: 30
   year: 2021
   id: ecmlpkdd2021
   name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases

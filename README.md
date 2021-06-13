@@ -9,10 +9,10 @@ Contributions are very welcome!
 To add or update a deadline:
 - Fork the repository
 - Update `_data/conferences.yml`
-- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
+- Make sure it has the `title`, `year`, `id`,  `name`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
     + See available timezone strings [here](https://momentjs.com/timezone/).
+    + In case the conference is not happening online, add the `flag` attribute. Use the flag unicode, which you can for example find [here](https://openmoji.org/).
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
-- Optionally add `hindex` (refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
 - Send a pull request
 
 ## Origin
