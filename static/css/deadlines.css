@@ -15,19 +15,21 @@ body *::selection {
 }
 
 .top-strip {
-  background-color: #333;
+  background-color: #22a6b3;
   height: 0.25em;
   width: 100%;
 }
 
 h1,h2,h3 {
   /* font-weight: 300; */
+  color: #22a6b3;
 }
 
 h1 {
   margin: 0 0 10px;
   font-size: 30px;
   line-height: 35px;
+  font-weight: 100;
 }
 
 h2 {
@@ -48,6 +50,10 @@ h3 {
 
 #conf-title.page-header {
   border-bottom: none;
+}
+
+#conf-header {
+  padding-bottom: 5vh;
 }
 
 p.authors {
@@ -205,4 +211,9 @@ footer {
 
 .calendar img {
   height: 20px;
+}
+
+#conf-flag {
+  height: 4vh;
+  width: 4vh;
 }

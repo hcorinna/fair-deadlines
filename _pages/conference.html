@@ -32,14 +32,21 @@ permalink:  /conference/
     <div class="container">
         <div class="page-header" id="conf-title">
             <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h1>
-                    <a id="conf-title-href" nohref></a>
-                    <span id="twitter-box"></span>
-                  </h1>
+                <div id="conf-header" class="col-xs-12 col-sm-12">
+                  <h1 id="conf-title-text"></h1>
+                  <span id="conf-name"></span>
                 </div>
-                <div class="meta deadline col-xs-12">
-                  <span id="conf-date"></span>. <span id="conf-place"></span>.<br>
+                <div class="meta deadline col-xs-2 col-sm-1 col-md-5">
+                  Conference date:
+                </div>
+                <div class="meta deadline col-xs-10 col-sm-11 col-md-7">
+                  <span id="conf-date"></span>
+                </div>
+                <div class="meta deadline col-xs-2 col-sm-1 col-md-5">
+                  Conference location:
+                </div>
+                <div class="meta deadline col-xs-10 col-sm-11 col-md-7">
+                  <span><span id="conf-place"></span>  <img id="conf-flag"/></span>
                 </div>
                 <div class="meta deadline col-xs-12 col-md-5">
                   Deadline in timezone from conference website:
@@ -74,7 +81,11 @@ permalink:  /conference/
           <hr>
         </div>
         <footer>
-          <a href="/">{{ site.domain }}</a> is maintained by <a href="//github.com/{{ site.github_username }}">@{{ site.github_username }}</a>.<br>
+          <div class="row">
+            <div class="col">
+              <a href="/">{{ site.domain }}{{ site.baseurl }}</a> is maintained by <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a>. All flag emojis designed by <a href="https://openmoji.org/">OpenMoji</a> – the open-source emoji and icon project (license: <a href="https://creativecommons.org/licenses/by-sa/4.0/#">CC BY-SA 4.0</a>).<br>
+            </div>
+          </div>
         </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
@@ -107,14 +118,17 @@ permalink:  /conference/
 
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {
-              $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
-              $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
+              $('#conf-title-text').text("{{conf.title}} {{conf.year}}");
+              $('#conf-name').text("{{conf.name}}");
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
+              {% if conf.place == "Online" %}
+                $('#conf-flag').attr('style', "display: none;");  
+              {% else %}
+                $('#conf-flag').attr('src', "{{site.baseurl}}/static/img/flags/{{conf.flag}}.svg");  
+              {% endif %}
               $('#conf-website').text("{{conf.link}}");
               $('#conf-website').attr('href', "{{conf.link}}");
-              var twitter_slug = '<a href="https://twitter.com/share" class="twitter-share-button" data-text="Countdown to the #{{ conf.title }}{{ conf.year }} deadline!" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8">';
-              $('#twitter-box').html(twitter_slug);
               {% if conf.deadline == "TBA" %}
                 $('#conf-timer').html("TBA");
                 $('.deadline-time').html("TBA");

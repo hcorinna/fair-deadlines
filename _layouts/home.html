@@ -66,11 +66,11 @@
                   To view them in conference website timezones, click on them.
                 </span>
               </div>
-              <div class="meta col-xs-12">
+              <!-- <div class="meta col-xs-12">
                 You can optionally export all deadlines to
                 <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/fair-deadlines.ics">Google Calendar</a> or
                 <a href="/fair-deadlines.ics">.ics</a>.
-              </div>
+              </div> -->
             </div>
         </div>
         <div id="confs">
@@ -79,7 +79,7 @@
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
-                    <a class="conf-title" href="{{ "/conference?id=" | append:conf.id | prepend:site.baseurl }}">{{conf.title}} {{conf.year}}</a>
+                    <h2><a class="conf-title" href="{{ "/conference?id=" | append:conf.id | prepend:site.baseurl }}">{{conf.title}} {{conf.year}}</a></h2>
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -88,12 +88,13 @@
             <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <div class="meta">
-                  <span class="conf-date">{{conf.date}}.</span>
+                  <div class="conf-name">{{conf.name}}</div>
+                  <span class="conf-date">{{conf.date}} |</span>
                   <span class="conf-place">
                     {% if conf.place == "Online" %}
-                    <a href="#">{{conf.place}}</a>.
+                    {{conf.place}}
                     {% else %}
-                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>  <img id="conf-flag" src="{{site.baseurl}}/static/img/flags/{{conf.flag}}.svg"/>
                     {% endif %}
                   </span>
                 </div>
@@ -128,9 +129,9 @@
         </div>
         <footer>
           <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <a href="/">{{ site.domain }}</a> is maintained by <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a>.<br>
-              </div>
+            <div class="col">
+              <a href="/">{{ site.domain }}{{ site.baseurl }}</a> is maintained by <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a>. All flag emojis designed by <a href="https://openmoji.org/">OpenMoji</a> – the open-source emoji and icon project (license: <a href="https://creativecommons.org/licenses/by-sa/4.0/#">CC BY-SA 4.0</a>).<br>
+            </div>
           </div>
         </footer>
         <br><br>
