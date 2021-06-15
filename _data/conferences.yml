@@ -294,3 +294,15 @@
   date: May 19-21, 2021
   place: Online
   sub: AIE
+
+- title: EC
+  year: 2021
+  id: ec2021
+  name: 22nd ACM Conference on Economics and Computation
+  link: https://ec21.sigecom.org/
+  deadline: '2021-02-12 23:59:59'
+  timezone: UTC-5
+  date: July 18-23, 2021
+  place: Budapest, Hungary
+  flag: 1F1ED-1F1FA
+  sub: MD

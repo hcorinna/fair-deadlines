@@ -3,6 +3,8 @@
   sub: AIE
 - name: Computational Social Science
   sub: CSS
+- name: Mechanism Design
+  sub: MD
 - name: Machine Learning
   sub: ML
 - name: Data Mining
