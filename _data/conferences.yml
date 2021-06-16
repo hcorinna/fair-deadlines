@@ -2,13 +2,13 @@
 
 - title: CHI
   year: 2022
-  id: chi2021
+  id: chi2022
   name: ACM CHI Conference on Human Factors in Computing Systems
   link: https://chi2022.acm.org/
   deadline: '2021-09-09 23:59:59'
   abstract_deadline: '2021-09-02 23:59:59'
   timezone: UTC-12
-  start: '2021-04-30 00:00:00'
+  start: '2022-04-30 00:00:00'
   date: April 30 - May 6, 2021
   place: New Orleans, Louisiana, USA
   flag: 1F1FA-1F1F8
@@ -64,8 +64,7 @@
   timezone: UTC-12
   start: '2021-11-01 00:00:00'
   date: November 1-5, 2021
-  place: Gold Coast, Queensland, Australia
-  flag: 1F1E6-1F1FA
+  place: Online
   sub: DM
 
 - title: ICDM
@@ -80,6 +79,7 @@
   place: Auckland, New Zealand
   flag: 1F1F3-1F1FF
   sub: DM
+  note: '<b>NOTE</b>: ICDM 2021 is currently (June 2021) planned to be held in Auckland, New Zealand. Depending on the circumstances, the format may be updated to virtual only or a combination of virtual and in-person participation.'
 
 - title: ACML
   year: 2021
@@ -117,7 +117,7 @@
   timezone: UTC-12
   start: '2021-09-27 00:00:00'
   date: September 27 - October 1, 2021
-  place: Amsterdam, Netherlands
+  place: Amsterdam, Netherlands, and online
   flag: 1F1F3-1F1F1
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2020. More info <a href=''https://recsys.acm.org/recsys21/dates/''>here</a>.'
@@ -147,8 +147,7 @@
   timezone: UTC-12
   start: '2021-05-03 00:00:00'
   date: May 3-7, 2021
-  place: London, UK
-  flag: 1F1EC-1F1E7
+  place: Online
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
 
@@ -161,8 +160,7 @@
   timezone: America/Los_Angeles
   start: '2021-04-13 00:00:00'
   date: April 13-15, 2021
-  place: San Diego, California, USA
-  flag: 1F1FA-1F1F8
+  place: Online
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
 
@@ -190,8 +188,7 @@
   timezone: America/Los_Angeles
   start: '2021-06-19 00:00:00'
   date: June 19-25, 2021
-  place: Nashville, USA
-  flag: 1F1FA-1F1F8
+  place: Online
   sub: CV
 
 - title: CHIL
@@ -219,8 +216,7 @@
   timezone: UTC-12
   start: '2021-08-21 00:00:00'
   date: August 21-26, 2021
-  place: Montreal, Canada
-  flag: 1F1E8-1F1E6
+  place: Online
   sub: ML
 
 - title: ICML
@@ -233,8 +229,7 @@
   timezone: UTC-12
   start: '2021-07-18 00:00:00'
   date: July 18-24, 2021
-  place: Vienna, Austria
-  flag: 1F1E6-1F1F9
+  place: Online
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 28, 2021. More info <a href=''https://icml.cc/Conferences/2021/''>here</a>.'
 
@@ -247,8 +242,7 @@
   timezone: UTC-12
   start: '2021-08-14 00:00:00'
   date: August 14-18, 2021
-  place: Singapore
-  flag: 1F1F8-1F1EC
+  place: Online
   sub: DM
 
 - title: SIGIR
@@ -260,8 +254,7 @@
   timezone: UTC-12
   start: '2021-07-11 00:00:00'
   date: July 11-15, 2021
-  place: Montreal, Canada
-  flag: 1F1E8-1F1E6
+  place: Online
   abstract_deadline: '2021-02-02 23:59:00'
   sub: DM
 
@@ -287,8 +280,7 @@
   timezone: UTC-12
   start: '2021-09-13 00:00:00'
   date: September 13-17, 2021
-  place: Bilbao, Basque Country (Spain)
-  flag: 1F1EA-1F1F8
+  place: Online
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 26, 2021. More info <a href=''https://2021.ecmlpkdd.org/?page_id=1599/''>here</a>.'
 
@@ -327,6 +319,6 @@
   timezone: UTC-5
   start: '2021-07-18 00:00:00'
   date: July 18-23, 2021
-  place: Budapest, Hungary
+  place: Budapest, Hungary, and online
   flag: 1F1ED-1F1FA
   sub: MD
