@@ -74,12 +74,15 @@
             </div>
         </div>
         <div id="confs">
-        <div id="coming_confs">
+        <h2>Upcoming deadlines</h2>
+        <p>Sorted by deadlines</p>
+        <hr>
+        <div id="coming_deadlines">
           {% for conf in site.data.conferences %}
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
-                    <h2><a class="conf-title" href="{{ "/conference?id=" | append:conf.id | prepend:site.baseurl }}">{{conf.title}} {{conf.year}}</a></h2>
+                    <h3><a class="conf-title" href="{{ "/conference?id=" | append:conf.id | prepend:site.baseurl }}">{{conf.title}} {{conf.year}}</a></h3>
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -124,6 +127,14 @@
           </div>
           {% endfor %}
         </div>
+        <h2>Upcoming conferences</h2>
+        <p>Sorted by start dates</p>
+        <hr>
+        <div id="coming_confs">
+        </div>
+        <h2>Past conferences</h2>
+        <p>Sorted by start dates (most recent conferences first)</p>
+        <hr>
         <div id="past_confs">
         </div>
         </div>
@@ -189,6 +200,7 @@
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var confDate = moment.tz("{{conf.deadline}}", timezone);
+          var confStart = moment.tz("{{conf.start}}", timezone);
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
@@ -227,22 +239,35 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          diff = today.diff(confDate)
-          $('#{{conf.id}}').attr("diff", diff)
-          if (diff > 0) {
+          deadlineDiff = today.diff(confDate)
+          confDiff = today.diff(confStart)
+          
+          if (confDiff > 0) {
             $('#{{conf.id}}').addClass('past');
             $('#{{conf.id}}').appendTo($("#past_confs"))
+            $('#{{conf.id}}').attr("diff", confDiff)
+          }
+          else if (deadlineDiff > 0) {
+            $('#{{conf.id}}').appendTo($("#coming_confs"))
+            $('#{{conf.id}}').attr("diff", confDiff)
+          }
+          else {
+            $('#{{conf.id}}').attr("diff", deadlineDiff)
           }
         {% endif %}
         {% endfor %}
 
-        // Sort coming_confs and past_confs
+        // Sort coming_deadlines, coming_confs and past_confs
+        $("#coming_deadlines .ConfItem").sort(function (a, b) {
+          return $(b).attr('diff') - $(a).attr('diff');
+        }).appendTo($("#coming_deadlines"));
+
         $("#coming_confs .ConfItem").sort(function (a, b) {
           return $(b).attr('diff') - $(a).attr('diff');
         }).appendTo($("#coming_confs"));
 
         $("#past_confs .ConfItem").sort(function (a, b) {
-          return $(b).attr('diff') - $(a).attr('diff');
+          return $(a).attr('diff') - $(b).attr('diff');
         }).appendTo($("#past_confs"));
 
         // Get subjects from URL

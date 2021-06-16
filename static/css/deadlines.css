@@ -22,7 +22,6 @@ body *::selection {
 
 h1,h2,h3 {
   /* font-weight: 300; */
-  color: #22a6b3;
 }
 
 h1 {
@@ -30,18 +29,21 @@ h1 {
   font-size: 30px;
   line-height: 35px;
   font-weight: 100;
+  color: #22a6b3;
 }
 
 h2 {
   margin: 0 0 10px;
   font-size: 25px;
   line-height: 30px;
+  color: #ffbe76;
 }
 
 h3 {
   margin: 0;
   font-size: 20px;
   line-height: 25px;
+  color: #22a6b3;
 }
 
 .page-header {
