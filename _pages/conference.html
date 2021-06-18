@@ -123,7 +123,7 @@ permalink:  /conference/
               $('#conf-name').text("{{conf.name}}");
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
-              {% if conf.place == "Online" %}
+              {% if conf.place == "Online" or conf.place == "TBD" %}
                 $('#conf-flag').attr('style', "display: none;");  
               {% else %}
                 $('#conf-flag').attr('src', "{{site.baseurl}}/static/img/flags/{{conf.flag}}.svg");  

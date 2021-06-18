@@ -93,20 +93,6 @@
   place: Online
   sub: ML
 
-- title: BMVC
-  year: 2021
-  id: bmvc21
-  name: The British Machine Vision Conference
-  link: https://britishmachinevisionassociation.github.io/bmvc
-  deadline: '2021-06-25 23:59:59'
-  abstract_deadline: '2021-06-18 23:59:59'
-  timezone: UTC-8
-  start: '2021-11-22 00:00:00'
-  date: November 22-25, 2021
-  place: Online
-  sub: CV
-  note: '<b>NOTE</b>: Mandatory abstract deadline on June 18, 2021. More info <a href=''https://britishmachinevisionassociation.github.io/bmvc''>here</a>.'
-
 - title: RecSys
   year: 2021
   id: recsys21
@@ -322,3 +308,29 @@
   place: Budapest, Hungary, and online
   flag: 1F1ED-1F1FA
   sub: MD
+
+- title: CSCW
+  year: 2021
+  id: cscw2021
+  name: 24th ACM conference on computer-supported cooperative work and social computing
+  link: https://cscw.acm.org/2021/
+  deadline: '2020-10-15 23:59:00'
+  timezone: UTC-12
+  start: '2021-10-23 00:00:00'
+  date: October 23-27, 2021
+  place: Online
+  sub: [CSS, AIE]
+  note: '<b>NOTE</b>: There are multiple submission rounds. The last deadline is on July 15, 2021.'
+
+- title: ICWSM
+  year: 2022
+  id: icwsm2022
+  name: 16th international conference on web and social media
+  link: https://www.icwsm.org/2021/index.html
+  deadline: '2021-05-15 23:59:00'
+  timezone: UTC-12
+  start: TBD
+  date: TBD
+  place: TBD
+  sub: [CSS]
+  note: '<b>NOTE</b>: There are multiple submission rounds. The last deadline is on January 15, 2022.'

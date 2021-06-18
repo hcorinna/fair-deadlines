@@ -94,7 +94,7 @@
                   <div class="conf-name">{{conf.name}}</div>
                   <span class="conf-date">{{conf.date}} |</span>
                   <span class="conf-place">
-                    {% if conf.place == "Online" %}
+                    {% if conf.place == "Online" or conf.place == "TBD" %}
                     {{conf.place}}
                     {% else %}
                     <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>  <img id="conf-flag" src="{{site.baseurl}}/static/img/flags/{{conf.flag}}.svg"/>
