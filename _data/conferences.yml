@@ -42,7 +42,7 @@
 
 - title: NeurIPS
   year: 2021
-  id: neurips21
+  id: neurips2021
   name: 35th Conference on Neural Information Processing Systems
   link: https://neurips.cc/Conferences/2021/
   deadline: '2021-05-28 13:00:00'
@@ -53,6 +53,19 @@
   place: Online
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 21, 2021'
+
+- title: NeurIPS
+  year: 2022
+  id: neurips2022
+  name: 36th Conference on Neural Information Processing Systems
+  link: https://nips.cc/Conferences/FutureMeetings
+  deadline: TBD
+  abstract_deadline: TBD
+  timezone: America/Los_Angeles
+  start: '2022-11-06 00:00:00'
+  date: November 6 - December 4, 2022
+  place: TBD
+  sub: ML
 
 - title: CIKM
   year: 2021
