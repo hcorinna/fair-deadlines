@@ -327,23 +327,23 @@
   id: cscw2021
   name: 24th ACM conference on computer-supported cooperative work and social computing
   link: https://cscw.acm.org/2021/
-  deadline: '2020-10-15 23:59:00'
+  deadline: '2021-07-15 23:59:00'
   timezone: UTC-12
   start: '2021-10-23 00:00:00'
   date: October 23-27, 2021
   place: Online
   sub: [CSS, AIE]
-  note: '<b>NOTE</b>: There are multiple submission rounds. The last deadline is on July 15, 2021.'
+  note: '<b>NOTE</b>: There are multiple submission rounds. The first deadline is on October 15, 2020.'
 
 - title: ICWSM
   year: 2022
   id: icwsm2022
   name: 16th international conference on web and social media
   link: https://www.icwsm.org/2021/index.html
-  deadline: '2021-05-15 23:59:00'
+  deadline: '2022-01-15 23:59:00'
   timezone: UTC-12
   start: TBD
   date: TBD
   place: TBD
   sub: [CSS]
-  note: '<b>NOTE</b>: There are multiple submission rounds. The last deadline is on January 15, 2022.'
+  note: '<b>NOTE</b>: There are multiple submission rounds. The first deadline is on May 15, 2021.'
