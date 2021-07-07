@@ -1,5 +1,19 @@
 ---
 
+- title: FAccTRec
+  year: 2021
+  id: facctrec2021
+  name: 4th FAccTRec Workshop on Responsible Recommendation at RecSys 2021
+  link: https://facctrec.github.io/facctrec2021/cfp/
+  deadline: '2021-07-29 23:59:59'
+  timezone: UTC-12
+  start: '2021-09-25 00:00:00'
+  date: September 25, 2021
+  place: Amsterdam, Netherlands, and online
+  flag: 1F1F3-1F1F1
+  sub: [AIE, DM]
+  note: '<b>NOTE</b>: FAccTRec is a venue for discussion, and no official proceedings will be published.'
+
 - title: CHI
   year: 2022
   id: chi2022
