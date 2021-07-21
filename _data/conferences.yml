@@ -1,5 +1,19 @@
 ---
 
+- title: AISTATS
+  year: 2022
+  id: aistats2022
+  name: 25th International Conference on Artificial Intelligence and Statistics
+  link: https://facctrec.github.io/facctrec2021/cfp/
+  deadline: '2021-10-08 11:58:59'
+  timezone: UTC
+  start: '2021-09-25 00:00:00'
+  date: September 25, 2021
+  place: Valencia, Spain (or online)
+  flag: 1F1EA-1F1F8
+  sub: [ML, AIE]
+  note: '<b>NOTE</b>: The paper submission deadline is separate from the abstract submission deadlines. Papers are due on October 15, 2021 11:59am (UTC).'
+
 - title: FAccTRec
   year: 2021
   id: facctrec2021
@@ -341,7 +355,7 @@
   id: cscw2021
   name: 24th ACM conference on computer-supported cooperative work and social computing
   link: https://cscw.acm.org/2021/
-  deadline: '2021-07-15 23:59:00'
+  deadline: '2021-07-15 23:58:59'
   timezone: UTC-12
   start: '2021-10-23 00:00:00'
   date: October 23-27, 2021
