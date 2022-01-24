@@ -8,19 +8,47 @@
 #   link: https://nips.cc/Conferences/FutureMeetings
 #   deadline: TBD
 #   abstract_deadline: TBD
-#   timezone: America/Los_Angeles
+#   timezone: UTC-6
 #   start: '2022-11-06 00:00:00'
 #   date: November 6 - December 4, 2022
-#   place: TBD
+#   place: New Orleans, Louisiana, USA
+#   flag: 1F1FA-1F1F8
 #   sub: ML
+
+
+- title: EAAMO
+  year: 2022
+  id: eaamo22
+  name: ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+  link: https://eaamo.org/
+  deadline: '2021-06-14 16:59:59'
+  timezone: America/New_York
+  start: '2022-10-06 00:00:00'
+  date: October 6-9, 2022
+  place: Washington DC, USA
+  flag: 1F1FA-1F1F8
+  sub: [AIE, MD]
+
+- title: AIES
+  year: 2022
+  id: aies2022
+  name: 5th AAAI/ACM Conference on AI, Ethics, and Society
+  link: https://www.aies-conference.com/2022/
+  deadline: '2022-02-22 23:59:59'
+  timezone: UTC
+  start: '2022-08-01 00:00:00'
+  date: August 1-3, 2022
+  place: Oxford, United Kingdom
+  flag: 1F1EC-1F1E7
+  sub: AIE
 
 - title: FAccT
   year: 2022
   id: facct2022
   name: ACM Conference on Fairness, Accountability, and Transparency
   link: https://facctconference.org/
-  deadline: '2021-12-15 23:59:59'
-  abstract_deadline: '2021-01-14 23:59:59'
+  deadline: '2022-01-21 23:59:59'
+  abstract_deadline: '2021-12-15 23:59:59'
   timezone: UTC+9
   start: '2022-06-21 00:00:00'
   date: June 21 - June 24 2022
@@ -28,6 +56,21 @@
   flag: 1F1F0-1F1F7
   sub: AIE
   note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 15, 2021.'
+
+- title: ICML
+  year: 2022
+  id: icml22
+  name: 39th International Conference on Machine Learning
+  link: https://icml.cc/Conferences/2022
+  deadline: '2022-01-27 23:59:00'
+  abstract_deadline: '2022-01-20 23:59:00'
+  timezone: UTC-12
+  start: '2022-07-17 00:00:00'
+  date: July 17-23, 2023
+  place: Baltimore, Maryland, USA
+  flag: 1F1FA-1F1F8
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 20, 2022. More info <a href=''https://icml.cc/Conferences/2022/''>here</a>.'
 
 - title: AISTATS
   year: 2022
@@ -89,7 +132,7 @@
   year: 2021
   id: eaamo21
   name: ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
-  link: https://eaamo.org/
+  link: https://eaamo2021.eaamo.org/
   deadline: '2021-06-14 16:59:59'
   timezone: America/New_York
   start: '2021-10-05 00:00:00'
