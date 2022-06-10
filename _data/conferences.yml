@@ -6,14 +6,15 @@
   id: neurips2022
   name: 36th Conference on Neural Information Processing Systems
   link: https://nips.cc/Conferences/FutureMeetings
-  deadline: TBD
-  abstract_deadline: '2022-05-16 13:00:00'
+  deadline: '2022-05-16 13:00:00'
+  abstract_deadline: '2022-05-19 13:00:00'
   timezone: UTC-7
   start: '2022-05-19 13:00:00'
   date: November 28 - December 9, 2022
   place: New Orleans, Louisiana, USA, and online
   flag: 1F1FA-1F1F8
   sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2022.'
 
 - title: AHRI
   year: 2022
