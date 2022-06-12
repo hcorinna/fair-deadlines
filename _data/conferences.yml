@@ -8,7 +8,7 @@
   deadline: '2022-09-15 23:59:59'
   abstract_deadline: '2022-09-08 23:59:59'
   timezone: UTC-12
-  start: '2022-04-30 00:00:00'
+  start: '2023-04-30 00:00:00'
   date: April 23 - April 28, 2022
   place: Hamburg, Germany
   flag: 1F1E9-1F1EA
@@ -23,8 +23,8 @@
   deadline: '2022-08-15 23:59:59'
   abstract_deadline: '2022-08-08 23:59:59'
   timezone: UTC-12
-  start: '2022-02-22 00:00:00'
-  date: February 07 - February 14, 2022
+  start: '2023-02-22 00:00:00'
+  date: February 07 - February 14, 2023
   place: Washington, DC, USA
   flag: 1F1FA-1F1F8
   sub: ML
