@@ -15,6 +15,19 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on August 08, 2022'
 
+- title: EC
+  year: 2022
+  id: ec2022
+  name: 23nd ACM Conference on Economics and Computation
+  link: https://ec22.sigecom.org/
+  deadline: '2022-02-10 23:59:59'
+  timezone: UTC-5
+  start: '2022-07-11 00:00:00'
+  date: July 11-15, 2022
+  place: Boulder, Colorado, USA
+  flag: 1F1FA-1F1F8
+  sub: MD
+
 - title: NeurIPS
   year: 2022
   id: neurips2022
