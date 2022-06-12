@@ -1,5 +1,20 @@
 ---
 
+- title: CHI
+  year: 2023
+  id: chi2023
+  name: ACM CHI Conference on Human Factors in Computing Systems
+  link: https://chi2023.acm.org/
+  deadline: '2022-09-15 23:59:59'
+  abstract_deadline: '2022-09-08 23:59:59'
+  timezone: UTC-12
+  start: '2022-04-30 00:00:00'
+  date: April 23 - April 28, 2022
+  place: Hamburg, Germany
+  flag: 1F1E9-1F1EA
+  sub: AIE
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 8, 2022.'
+
 - title: AAAI
   year: 2023
   id: aaai23
@@ -13,7 +28,22 @@
   place: Washington, DC, USA
   flag: 1F1FA-1F1F8
   sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on August 08, 2022'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on August 8, 2022.'
+
+- title: IJCAI
+  year: 2022
+  id: ijcai22
+  name: 31th International Joint Conference on Artificial Intelligence
+  link: https://ijcai-22.org/
+  deadline: '2022-01-14 23:59:59'
+  abstract_deadline: '2022-01-07 23:59:59'
+  timezone: UTC+1
+  start: '2022-07-23 00:00:00'
+  date: July 23-29, 2022
+  place: Vienna, Austria
+  flag: 1F1E6-1F1F9
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on January 7, 2022.'
 
 - title: EC
   year: 2022
