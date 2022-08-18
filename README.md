@@ -9,11 +9,22 @@ Contributions are very welcome!
 To add or update a deadline:
 - Fork the repository
 - Update `_data/conferences.yml`
-- Make sure it has the `title`, `year`, `id`,  `name`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
+- If it is a conference (): Make sure it has the `title` (abbreviation), `year`, `id`,  `name` (full name), `link`, `deadline`, `timezone`, `date`, `start`, `place`, `sub`, `cat: conference` attributes
     + See available timezone strings [here](https://momentjs.com/timezone/).
     + In case the conference is not happening online, add the `flag` attribute. Use the flag unicode, which you can for example find [here](https://openmoji.org/).
+- If it is a special issue: Make sure it has the `title`, `year` (only used for calendar entry), `id`,  `name` (journal name), `link`, `deadline`, `timezone`, `start` (same as deadline), `sub`, `cat: specialissue` attributes
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
 - Send a pull request
+
+## Local setup
+
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), do the following:
+
+```bash
+$ cd <your-repo-name>
+$ bundle install
+$ bundle exec jekyll serve
+```
 
 ## Origin
 

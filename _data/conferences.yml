@@ -1,5 +1,16 @@
 ---
 
+- title: Special Issue on Trustworthy Recommender Systems
+  year: 2023
+  id: trustworthy-recommender-systems2023
+  name: ACM Transactions on Recommender Systems
+  link: https://dl.acm.org/pb-assets/static_journal_pages/tors/pdf/TORS-SI-Trustworthy-Recommender-Systems.pdf
+  deadline: '2023-01-15 23:59:59'
+  start: '2023-01-15 23:59:59'
+  timezone: UTC-12
+  cat: specialissue
+  sub: [AIE, ML, CSS]
+
 - title: CHI
   year: 2023
   id: chi2023
@@ -12,6 +23,7 @@
   date: April 23 - April 28, 2022
   place: Hamburg, Germany
   flag: 1F1E9-1F1EA
+  cat: conference
   sub: AIE
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 8, 2022.'
 
@@ -27,6 +39,7 @@
   date: February 07 - February 14, 2023
   place: Washington, DC, USA
   flag: 1F1FA-1F1F8
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on August 8, 2022.'
 
@@ -42,6 +55,7 @@
   date: July 23-29, 2022
   place: Vienna, Austria
   flag: 1F1E6-1F1F9
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on January 7, 2022.'
 
@@ -56,6 +70,7 @@
   date: July 11-15, 2022
   place: Boulder, Colorado, USA
   flag: 1F1FA-1F1F8
+  cat: conference
   sub: MD
 
 - title: NeurIPS
@@ -70,6 +85,7 @@
   date: November 28 - December 9, 2022
   place: New Orleans, Louisiana, USA, and online
   flag: 1F1FA-1F1F8
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2022.'
 
@@ -84,6 +100,7 @@
   date: September 1-3, 2022
   place: Pretoria, South Africa
   flag: 1F1FF-1F1E6
+  cat: conference
   sub: AIE
 
 - title: EAAMO
@@ -97,6 +114,7 @@
   date: October 6-9, 2022
   place: Washington DC, USA
   flag: 1F1FA-1F1F8
+  cat: conference
   sub: [AIE, MD]
 
 - title: AIES
@@ -110,6 +128,7 @@
   date: August 1-3, 2022
   place: Oxford, United Kingdom
   flag: 1F1EC-1F1E7
+  cat: conference
   sub: AIE
 
 - title: FAccT
@@ -124,6 +143,7 @@
   date: June 21 - June 24 2022
   place: Seoul, Korea, and online
   flag: 1F1F0-1F1F7
+  cat: conference
   sub: AIE
   note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 15, 2021.'
 
@@ -139,6 +159,7 @@
   date: June 8 - June 9 2022
   place: Zurich, Switzerland
   flag: 1F1E8-1F1ED
+  cat: conference
   sub: AIE
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 31, 2022.'
 
@@ -154,6 +175,7 @@
   date: July 17-23, 2023
   place: Baltimore, Maryland, USA
   flag: 1F1FA-1F1F8
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 20, 2022. More info <a href=''https://icml.cc/Conferences/2022/''>here</a>.'
 
@@ -168,6 +190,7 @@
   date: March 30 - April 1, 2022
   place: Valencia, Spain (or online)
   flag: 1F1EA-1F1F8
+  cat: conference
   sub: [ML, AIE]
   note: '<b>NOTE</b>: The paper submission deadline is separate from the abstract submission deadlines. Papers are due on October 15, 2021 11:59am (UTC).'
 
@@ -182,6 +205,7 @@
   date: September 25, 2021
   place: Amsterdam, Netherlands, and online
   flag: 1F1F3-1F1F1
+  cat: conference
   sub: [AIE, DM]
   note: '<b>NOTE</b>: FAccTRec is a venue for discussion, and no official proceedings will be published.'
 
@@ -197,6 +221,7 @@
   date: April 30 - May 6, 2021
   place: New Orleans, Louisiana, USA
   flag: 1F1FA-1F1F8
+  cat: conference
   sub: AIE
   note: '<b>NOTE</b>: Mandatory abstract deadline on Sep 02, 2021. More info <a href=''https://chi2022.acm.org/for-authors/presenting/papers/''>here</a>.'
 
@@ -211,6 +236,7 @@
   start: '2021-07-27 00:00:00'
   date: July 27-31, 2021
   place: Online
+  cat: conference
   sub: CSS
 
 - title: EAAMO
@@ -223,6 +249,7 @@
   start: '2021-10-05 00:00:00'
   date: October 5-9, 2021
   place: Online
+  cat: conference
   sub: [AIE, MD]
 
 - title: NeurIPS
@@ -236,6 +263,7 @@
   start: '2021-12-05 00:00:00'
   date: December 5-14, 2021
   place: Online
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 21, 2021'
 
@@ -250,6 +278,7 @@
   start: '2021-11-01 00:00:00'
   date: November 1-5, 2021
   place: Online
+  cat: conference
   sub: DM
 
 - title: ICDM
@@ -263,6 +292,7 @@
   date: December 7-10, 2021
   place: Auckland, New Zealand
   flag: 1F1F3-1F1FF
+  cat: conference
   sub: DM
   note: '<b>NOTE</b>: ICDM 2021 is currently (June 2021) planned to be held in Auckland, New Zealand. Depending on the circumstances, the format may be updated to virtual only or a combination of virtual and in-person participation.'
 
@@ -276,6 +306,7 @@
   start: '2021-11-17 00:00:00'
   date: November 17-19, 2021
   place: Online
+  cat: conference
   sub: ML
 
 - title: RecSys
@@ -290,6 +321,7 @@
   date: September 27 - October 1, 2021
   place: Amsterdam, Netherlands, and online
   flag: 1F1F3-1F1F1
+  cat: conference
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2020. More info <a href=''https://recsys.acm.org/recsys21/dates/''>here</a>.'
 
@@ -305,6 +337,7 @@
   date: February 22 - March 1, 2022
   place: Vancouver, Canada
   flag: 1F1E8-1F1E6
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on August 30, 2021'
 
@@ -319,6 +352,7 @@
   start: '2021-05-03 00:00:00'
   date: May 3-7, 2021
   place: Online
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
 
@@ -332,6 +366,7 @@
   start: '2021-04-13 00:00:00'
   date: April 13-15, 2021
   place: Online
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
 
@@ -347,6 +382,7 @@
   date: April 25-29, 2022
   place: Lyon, France
   flag: 1F1EB-1F1F7
+  cat: conference
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
@@ -360,6 +396,7 @@
   start: '2021-06-19 00:00:00'
   date: June 19-25, 2021
   place: Online
+  cat: conference
   sub: CV
 
 - title: CHIL
@@ -373,6 +410,7 @@
   start: '2021-04-08 00:00:00'
   date: April 8-10, 2021
   place: Online
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Recommended abstract deadline on Jan 10, 2021. More info <a
     href=''https://www.chilconference.org''>here</a>.'
@@ -388,6 +426,7 @@
   start: '2021-08-21 00:00:00'
   date: August 21-26, 2021
   place: Online
+  cat: conference
   sub: ML
 
 - title: ICML
@@ -401,6 +440,7 @@
   start: '2021-07-18 00:00:00'
   date: July 18-24, 2021
   place: Online
+  cat: conference
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 28, 2021. More info <a href=''https://icml.cc/Conferences/2021/''>here</a>.'
 
@@ -414,6 +454,7 @@
   start: '2021-08-14 00:00:00'
   date: August 14-18, 2021
   place: Online
+  cat: conference
   sub: DM
 
 - title: SIGIR
@@ -427,6 +468,7 @@
   date: July 11-15, 2021
   place: Online
   abstract_deadline: '2021-02-02 23:59:00'
+  cat: conference
   sub: DM
 
 - title: UAI
@@ -439,6 +481,7 @@
   start: '2021-07-26 00:00:00'
   date: July 26-30, 2021
   place: Online
+  cat: conference
   sub: ML
 
 - title: ECML-PKDD
@@ -453,6 +496,7 @@
   date: September 13-17, 2021
   place: Online
   sub: ML
+  cat: conference
   note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 26, 2021. More info <a href=''https://2021.ecmlpkdd.org/?page_id=1599/''>here</a>.'
 
 - title: FAccT
@@ -466,6 +510,7 @@
   start: '2021-03-03 00:00:00'
   date: March 3-10, 2021
   place: Online
+  cat: conference
   sub: AIE
   note: '<b>NOTE</b>: Mandatory abstract deadline on Sep 30, 2020. More info <a href=''https://facctconference.org/2021/cfp.html''>here</a>.'
 
@@ -479,6 +524,7 @@
   start: '2021-05-19 00:00:00'
   date: May 19-21, 2021
   place: Online
+  cat: conference
   sub: AIE
 
 - title: EC
@@ -492,6 +538,7 @@
   date: July 18-23, 2021
   place: Budapest, Hungary, and online
   flag: 1F1ED-1F1FA
+  cat: conference
   sub: MD
 
 - title: CSCW
@@ -504,6 +551,7 @@
   start: '2021-10-23 00:00:00'
   date: October 23-27, 2021
   place: Online
+  cat: conference
   sub: [CSS, AIE]
   note: '<b>NOTE</b>: There are multiple submission rounds. The first deadline is on October 15, 2020.'
 
@@ -517,5 +565,6 @@
   start: TBD
   date: TBD
   place: TBD
+  cat: conference
   sub: [CSS]
   note: '<b>NOTE</b>: There are multiple submission rounds. The first deadline is on May 15, 2021.'

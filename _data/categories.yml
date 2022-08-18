@@ -1,0 +1,5 @@
+---
+- name: Conference
+  cat: conference
+- name: Special issue
+  cat: specialissue

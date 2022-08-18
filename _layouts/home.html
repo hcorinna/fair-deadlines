@@ -40,6 +40,27 @@
                 </div>
             </div>
             <br>
+            <h2>Category</h2>
+            <div class="row">
+              <div class="col-xs-12">
+                <!-- <div class="well"> -->
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      {% for category in site.data.categories %}
+                      <div class="col-md-4 col-xs-6">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" id="{{ category.cat }}-checkbox" class="check-cat"> {{ category.name }}
+                          </label>
+                        </div>
+                      </div>
+                      {% endfor %}
+                    </div>
+                  </form>
+                <!-- </div> -->
+              </div>
+            </div>
+            <h2>Area</h2>
             <div class="row">
               <div class="col-xs-12">
                 <!-- <div class="well"> -->
@@ -49,7 +70,7 @@
                       <div class="col-md-4 col-xs-6">
                         <div class="checkbox">
                           <label>
-                            <input type="checkbox" id="{{ type.sub }}-checkbox" class=""> {{ type.name }}
+                            <input type="checkbox" id="{{ type.sub }}-checkbox" class="check-sub"> {{ type.name }}
                           </label>
                         </div>
                       </div>
@@ -79,10 +100,14 @@
         <hr>
         <div id="coming_deadlines">
           {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+          <div id="{{conf.id}}" class="ConfItem {{conf.cat}}-cat {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
+                    {% if conf.cat == "conference" %}
                     <h3><a class="conf-title" href="{{ "/conference?id=" | append:conf.id | prepend:site.baseurl }}">{{conf.title}} {{conf.year}}</a></h3>
+                    {% else %}
+                    <h3><a class="conf-title" href="{{ conf.link }}" target="_blank">{{conf.title}}</a></h3>
+                    {% endif %}
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -92,6 +117,7 @@
               <div class="col-xs-12 col-sm-6">
                 <div class="meta">
                   <div class="conf-name">{{conf.name}}</div>
+                  {% if conf.cat == "conference" %}
                   <span class="conf-date">{{conf.date}} |</span>
                   <span class="conf-place">
                     {% if conf.place == "Online" or conf.place == "TBD" %}
@@ -100,6 +126,7 @@
                     <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>  <img id="conf-flag" src="{{site.baseurl}}/static/img/flags/{{conf.flag}}.svg"/>
                     {% endif %}
                   </span>
+                  {% endif %}
                 </div>
                 {% if conf.note %}
                 <div class="note">
@@ -132,7 +159,7 @@
         <hr>
         <div id="coming_confs">
         </div>
-        <h2>Past conferences</h2>
+        <h2>Past conferences or special issues</h2>
         <p>Sorted by start dates (most recent conferences first)</p>
         <hr>
         <div id="past_confs">
@@ -178,6 +205,16 @@
           $('.local-timezone-hide').hide();
         }
 
+
+        // Get all categories
+        var conf_type_data = {{ site.data.categories | jsonify }};
+        var all_categories = [];
+        var cat2name = {}; var name2cat = {};
+        for (var i = 0; i < conf_type_data.length; i++) {
+          all_categories[i] = conf_type_data[i]['cat'];
+          cat2name[conf_type_data[i]['cat']] = conf_type_data[i]['name'];
+          name2cat[conf_type_data[i]['name']] = conf_type_data[i]['cat'];
+        }
 
         // Get all subs
         var conf_type_data = {{ site.data.types | jsonify }};
@@ -238,11 +275,12 @@
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
+          var category = "{{conf.cat}}";
           var today = moment();
           deadlineDiff = today.diff(confDate)
           confDiff = today.diff(confStart)
           
-          if (confDiff > 0) {
+          if (confDiff > 0 || category == "specialissue" && deadlineDiff > 0) {
             $('#{{conf.id}}').addClass('past');
             $('#{{conf.id}}').appendTo($("#past_confs"))
             $('#{{conf.id}}').attr("diff", confDiff)
@@ -270,8 +308,9 @@
           return $(a).attr('diff') - $(b).attr('diff');
         }).appendTo($("#past_confs"));
 
-        // Get subjects from URL
+        // Get categories and subjects from URL
         var url = new URL(window.location);
+        
         var subs = url.searchParams.get('sub');
         if (subs == undefined) {
            subs = store.get('{{ site.domain | append:site.baseurl }}');
@@ -285,7 +324,7 @@
               $('.' + all_subs[i] + '-conf').hide();
             }
           }
-          // In case a conf with multiple types is wrongly hid, show all confs with at least one checked type.
+          // In case a conf with multiple types is wrongly hidden, show all confs with at least one checked type.
           for (var i = 0; i < subs.length; i++) {
             $('.' + subs[i] + '-conf').show();
           }
@@ -302,31 +341,95 @@
           }
         }
         store.set('{{ site.domain }}', subs);
-        window.history.pushState('', '', '{{site.baseurl}}' + '/?sub=' + subs.join());
 
-        // Event handler on checkbox change
-        $('form :checkbox').change(function(e) {
+        var categories = url.searchParams.get('cat');
+        if (categories == undefined) {
+          categories = store.get('{{ site.domain | append:site.baseurl }}');
+        } else {
+          categories = categories.toLowerCase().split(',');
+        }
+        if (categories != undefined) {
+          // Hide unchecked categories
+          for (var i = 0; i < all_categories.length; i++) {
+            if (categories.indexOf(all_categories[i]) < 0) {
+              $('.' + all_categories[i] + '-cat').hide();
+            }
+          }
+        }
+        // Get categories from browser cache
+        if (categories === undefined) {
+          categories = all_categories;
+          for (var i = 0; i < categories.length; i++) {
+            $('#' + categories[i] + '-checkbox').prop('checked', true);
+          }
+        } else {
+          for (var i = 0; i < categories.length; i++) {
+            $('#' + categories[i] + '-checkbox').prop('checked', true);
+          }
+        }
+        store.set('{{ site.domain }}', categories);
+
+        window.history.pushState('', '', '{{site.baseurl}}' + '/?cat=' + categories.join() + '&sub=' + subs.join());
+
+
+        function showAndHide() {
+          // Hide unchecked subs
+          for (var i = 0; i < all_subs.length; i++) {
+            if (subs.indexOf(all_subs[i]) < 0) {
+              $('.' + all_subs[i] + '-conf').hide();
+            }
+          }
+          // In case a conf with multiple types is wrongly hidden, show all confs with at least one checked type.
+          for (var i = 0; i < subs.length; i++) {
+            $('.' + subs[i] + '-conf').show();
+          }
+          // Hide unchecked categories
+          for (var i = 0; i < all_categories.length; i++) {
+            if (categories.indexOf(all_categories[i]) < 0) {
+              $('.' + all_categories[i] + '-cat').hide();
+            }
+          }
+        }
+
+        // Event handler on category checkbox change
+        $('form .check-cat').change(function(e) {
+          var checked = $(this).is(':checked');
+          var cid = $(this).prop('id');
+          var ccat = cid.substring(0, cid.length - 9);
+          if (checked == true) {
+            if (categories.indexOf(ccat) < 0)
+              categories.push(ccat);
+          }
+          else {
+            var idx = categories.indexOf(ccat);
+            if (idx >= 0)
+            categories.splice(idx, 1);
+          }
+          showAndHide()
+          console.log(categories);
+          store.set('{{ site.domain }}', categories);
+          window.history.pushState('', '', '{{site.baseurl}}' + '/?cat=' + categories.join() + '&sub=' + subs.join());
+        });
+
+        // Event handler on subject checkbox change
+        $('form .check-sub').change(function(e) {
           var checked = $(this).is(':checked');
           var cid = $(this).prop('id');
           var csub = cid.substring(0, cid.length - 9);
           if (checked == true) {
-            $('.' + csub + '-conf').show();
+            // Add checked category
             if (subs.indexOf(csub) < 0)
               subs.push(csub);
           }
           else {
-            $('.' + csub + '-conf').hide();
             var idx = subs.indexOf(csub);
             if (idx >= 0)
               subs.splice(idx, 1);
-            // In case a conf with multiple types (including this type) is wrongly hid, show all confs with at least one checked type.
-            for (var i = 0; i < subs.length; i++) {
-              $('.' + subs[i] + '-conf').show();
-            }
           }
+          showAndHide()
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '{{site.baseurl}}' + '/?sub=' + subs.join());
+          window.history.pushState('', '', '{{site.baseurl}}' + '/?cat=' + categories.join() + '&sub=' + subs.join());
         });
 
         // Event handler on sub click
@@ -335,15 +438,14 @@
           for (var i = 0; i < subs.length; i++) {
             if (subs[i] != csub) {
               $('#' + subs[i] + '-checkbox').prop('checked', false);
-              $('.' + subs[i] + '-conf').hide();
             }
           }
           $('#' + csub + '-checkbox').prop('checked', true);
-          $('.' + csub + '-conf').show();
           subs = [csub];
+          showAndHide();
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '{{site.baseurl}}' + '/?sub=' + subs.join());
+          window.history.pushState('', '', '{{site.baseurl}}' + '/?cat=' + categories.join() + '&sub=' + subs.join());
         });
     });
     </script>
