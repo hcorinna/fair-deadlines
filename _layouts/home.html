@@ -344,7 +344,7 @@
 
         var categories = url.searchParams.get('cat');
         if (categories == undefined) {
-          categories = store.get('{{ site.domain | append:site.baseurl }}');
+          categories = ['conference', 'specialissue'];
         } else {
           categories = categories.toLowerCase().split(',');
         }
