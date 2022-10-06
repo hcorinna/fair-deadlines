@@ -1,4 +1,35 @@
 ---
+# - title: IJCAI
+#   year: 2022
+#   id: ijcai22
+#   name: 32nd International Joint Conference on Artificial Intelligence
+#   link: https://ijcai-23.org/
+#   deadline: 'TBD'
+#   abstract_deadline: 'TBD'
+#   timezone: UTC+1
+#   start: '2023-08-19 00:00:00'
+#   date: August 19 - August 25, 2023
+#   place: Cape Town, South Africa
+#   flag: 1F1FF-1F1E6
+#   cat: conference
+#   sub: ML
+#   note: '<b>NOTE</b>: Mandatory abstract deadline TBD'
+
+- title: TheWebConf
+  year: 2023
+  id: thewebconf2023
+  name: 2023 ACM Web Conference
+  link: https://www2023.thewebconf.org/
+  deadline: '2022-10-13 23:59:59'
+  abstract_deadline: '2022-10-06 23:59:59'
+  timezone: UTC-12
+  start: '2023-04-30 00:00:00'
+  date: April 30 - May 4, 2022
+  place: Austin, Texas, USA
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: [DM, ML, AIE]
+  note: '<b>NOTE</b>: Mandatory abstract deadline on October 6, 2022.'
 
 - title: Special Issue on Trustworthy Recommender Systems
   year: 2023
@@ -19,8 +50,8 @@
   deadline: '2022-09-15 23:59:59'
   abstract_deadline: '2022-09-08 23:59:59'
   timezone: UTC-12
-  start: '2023-04-30 00:00:00'
-  date: April 23 - April 28, 2022
+  start: '2023-04-23 00:00:00'
+  date: April 23 - April 28, 2023
   place: Hamburg, Germany
   flag: 1F1E9-1F1EA
   cat: conference
@@ -46,7 +77,7 @@
 - title: IJCAI
   year: 2022
   id: ijcai22
-  name: 31th International Joint Conference on Artificial Intelligence
+  name: 31st International Joint Conference on Artificial Intelligence
   link: https://ijcai-22.org/
   deadline: '2022-01-14 23:59:59'
   abstract_deadline: '2022-01-07 23:59:59'
