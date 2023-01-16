@@ -66,8 +66,8 @@
   id: trustworthy-recommender-systems2023
   name: ACM Transactions on Recommender Systems
   link: https://dl.acm.org/pb-assets/static_journal_pages/tors/pdf/TORS-SI-Trustworthy-Recommender-Systems.pdf
-  deadline: '2023-01-15 23:59:59'
-  start: '2023-01-15 23:59:59'
+  deadline: '2023-02-28 23:59:59'
+  start: '2023-02-28 23:59:59'
   timezone: UTC-12
   cat: specialissue
   sub: [AIE, ML, CSS]
