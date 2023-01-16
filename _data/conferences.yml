@@ -1,19 +1,49 @@
 ---
-# - title: IJCAI
-#   year: 2022
-#   id: ijcai22
-#   name: 32nd International Joint Conference on Artificial Intelligence
-#   link: https://ijcai-23.org/
-#   deadline: 'TBD'
-#   abstract_deadline: 'TBD'
-#   timezone: UTC+1
-#   start: '2023-08-19 00:00:00'
-#   date: August 19 - August 25, 2023
-#   place: Cape Town, South Africa
-#   flag: 1F1FF-1F1E6
-#   cat: conference
-#   sub: ML
-#   note: '<b>NOTE</b>: Mandatory abstract deadline TBD'
+- title: FAccT
+  year: 2023
+  id: facct2023
+  name: ACM Conference on Fairness, Accountability, and Transparency
+  link: https://facctconference.org/2023/index.html
+  deadline: '2023-02-06 23:59:59'
+  abstract_deadline: '2023-01-30 23:59:59'
+  timezone: UTC-12
+  start: '2023-06-12 00:00:00'
+  date: June 12 - June 15, 2023
+  place: Chicago, Illinois, USA and online
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: AIE
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 30, 2023.'
+
+- title: EWAF
+  year: 2023
+  id: ewaf2023
+  name: European Workshop on Algorithmic Fairness
+  link: https://sites.google.com/view/ewaf23/
+  deadline: '2023-02-09 23:59:59'
+  timezone: UTC-12
+  start: '2022-06-07 00:00:00'
+  date: June 7 - June 9, 2022
+  place: Winterthur, Switzerland
+  flag: 1F1E8-1F1ED
+  cat: conference
+  sub: AIE
+
+- title: IJCAI
+  year: 2023
+  id: ijcai23
+  name: 32nd International Joint Conference on Artificial Intelligence
+  link: https://ijcai-23.org/
+  deadline: '2023-01-18 23:59:59'
+  abstract_deadline: '2023-01-11 23:59:59'
+  timezone: UTC-12
+  start: '2023-08-19 00:00:00'
+  date: August 19 - August 25, 2023
+  place: Cape Town, South Africa
+  flag: 1F1FF-1F1E6
+  cat: conference
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline TBD'
 
 - title: TheWebConf
   year: 2023
@@ -166,7 +196,7 @@
   year: 2022
   id: facct2022
   name: ACM Conference on Fairness, Accountability, and Transparency
-  link: https://facctconference.org/
+  link: https://facctconference.org/2022/index.html
   deadline: '2022-01-21 23:59:59'
   abstract_deadline: '2021-12-15 23:59:59'
   timezone: UTC+9
