@@ -1,4 +1,34 @@
 ---
+- title: EWAF
+  year: 2024
+  id: ewaf2024
+  name: European Workshop on Algorithmic Fairness
+  link: https://sites.google.com/view/ewaf24/
+  deadline: '2024-03-15 23:59:59'
+  timezone: UTC-12
+  start: '2023-07-01 00:00:00'
+  date: July 1 - July 3, 2024
+  place: Mainz, Germany
+  flag: 1F1E9-1F1EA
+  cat: conference
+  sub: AIE
+
+- title: FAccT
+  year: 2024
+  id: facct2024
+  name: ACM Conference on Fairness, Accountability, and Transparency
+  link: https://facctconference.org/2024/
+  deadline: '2024-01-22 23:59:59'
+  abstract_deadline: '2024-01-15 23:59:59'
+  timezone: UTC-12
+  start: '2024-06-03 00:00:00'
+  date: June 3 - June 6, 2024
+  place: Rio de Janeiro, Brazil
+  flag: 1F1E7-1F1F7
+  cat: conference
+  sub: AIE
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 15, 2024.'
+
 - title: AIES
   year: 2023
   id: aies2023
@@ -7,7 +37,7 @@
   deadline: '2023-03-15 23:59:59'
   timezone: UTC-12
   start: '2023-08-09 00:00:00'
-  date: August 9-11, 2023
+  date: August 9 - August 11, 2023
   place: Montreal, Canada
   flag: 1F1E8-1F1E6
   cat: conference
@@ -37,7 +67,7 @@
   deadline: '2023-02-09 23:59:59'
   timezone: UTC-12
   start: '2023-06-07 00:00:00'
-  date: June 7 - June 9, 2022
+  date: June 7 - June 9, 2023
   place: Winterthur, Switzerland
   flag: 1F1E8-1F1ED
   cat: conference
