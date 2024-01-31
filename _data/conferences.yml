@@ -1,4 +1,19 @@
 ---
+- title: ICWSM
+  year: 2024
+  id: icwsm2024
+  name: 18th International AAAI Conference on Web and Social Media
+  link: https://www.icwsm.org/2024/index.html/
+  deadline: '2024-01-15 23:59:00'
+  timezone: UTC-12
+  start: '2024-06-03 00:00:00'
+  date: June 3 - June 6, 2024
+  place: Buffalo, New York, USA and online
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: [CSS]
+  note: '<b>NOTE</b>: There are multiple submission rounds. The first deadline is on May 15, 2023.'
+
 - title: EWAF
   year: 2024
   id: ewaf2024
@@ -654,7 +669,7 @@
   deadline: '2021-07-15 23:58:59'
   timezone: UTC-12
   start: '2021-10-23 00:00:00'
-  date: October 23-27, 2021
+  date: October 23 - October 27, 2021
   place: Online
   cat: conference
   sub: [CSS, AIE]
@@ -663,13 +678,14 @@
 - title: ICWSM
   year: 2022
   id: icwsm2022
-  name: 16th international conference on web and social media
-  link: https://www.icwsm.org/2021/index.html
+  name: International AAAI Conference on Web and Social Media
+  link: https://www.icwsm.org/2022/index.html/
   deadline: '2022-01-15 23:59:00'
   timezone: UTC-12
-  start: TBD
-  date: TBD
-  place: TBD
+  start: '2022-06-06 00:00:00'
+  date: June 6 - June 9, 2022
+  place: Atlanta, Georgia, USA and online
+  flag: 1F1FA-1F1F8
   cat: conference
   sub: [CSS]
   note: '<b>NOTE</b>: There are multiple submission rounds. The first deadline is on May 15, 2021.'
