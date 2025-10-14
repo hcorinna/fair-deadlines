@@ -1,4 +1,45 @@
 ---
+- title: CHI
+  year: 2026
+  id: chi2026
+  name: ACM CHI Conference on Human Factors in Computing Systems
+  link: https://chi2026.acm.org/
+  deadline: '2025-09-11 23:59:59'
+  timezone: UTC-12
+  start: '2026-04-13 00:00:00'
+  date: April 13 - April 17, 2026
+  place: Barcelona, Spain
+  flag: 1F1EA-1F1F8
+  cat: conference
+  sub: [AIE, CSS]
+
+- title: CHI
+  year: 2025
+  id: chi2025
+  name: ACM CHI Conference on Human Factors in Computing Systems
+  link: https://chi2025.acm.org/
+  deadline: '2024-09-12 23:59:59'
+  timezone: UTC-12
+  start: '2025-04-26 00:00:00'
+  date: April 26 - May 1, 2025
+  place: Yokohama, Japan
+  flag: 1F1EF-1F1F5
+  cat: conference
+  sub: [AIE, CSS]
+
+- title: CHI
+  year: 2024
+  id: chi2024
+  name: ACM CHI Conference on Human Factors in Computing Systems
+  link: https://chi2024.acm.org/
+  deadline: '2023-09-07 23:59:59'
+  timezone: UTC-12
+  start: '2025-05-11 00:00:00'
+  date: May 11 - May 16, 2024
+  place: Honolulu, Hawaiʻi, USA
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: [AIE, CSS]
 
 - title: EWAF
   year: 2025
@@ -235,7 +276,7 @@
   place: Hamburg, Germany
   flag: 1F1E9-1F1EA
   cat: conference
-  sub: AIE
+  sub: [AIE, CSS]
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 8, 2022.'
 
 - title: AAAI
@@ -433,7 +474,7 @@
   place: New Orleans, Louisiana, USA
   flag: 1F1FA-1F1F8
   cat: conference
-  sub: AIE
+  sub: [AIE, CSS]
   note: '<b>NOTE</b>: Mandatory abstract deadline on Sep 02, 2021. More info <a href=''https://chi2022.acm.org/for-authors/presenting/papers/''>here</a>.'
 
 
