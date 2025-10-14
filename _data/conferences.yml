@@ -4,7 +4,7 @@
   id: chi2026
   name: ACM CHI Conference on Human Factors in Computing Systems
   link: https://chi2026.acm.org/
-  deadline: '2025-09-11 23:59:59'
+  deadline: '2025-09-11 23:59:00'
   timezone: UTC-12
   start: '2026-04-13 00:00:00'
   date: April 13 - April 17, 2026
@@ -18,7 +18,7 @@
   id: chi2025
   name: ACM CHI Conference on Human Factors in Computing Systems
   link: https://chi2025.acm.org/
-  deadline: '2024-09-12 23:59:59'
+  deadline: '2024-09-12 23:59:00'
   timezone: UTC-12
   start: '2025-04-26 00:00:00'
   date: April 26 - May 1, 2025
@@ -32,7 +32,7 @@
   id: chi2024
   name: ACM CHI Conference on Human Factors in Computing Systems
   link: https://chi2024.acm.org/
-  deadline: '2023-09-07 23:59:59'
+  deadline: '2023-09-07 23:59:00'
   timezone: UTC-12
   start: '2025-05-11 00:00:00'
   date: May 11 - May 16, 2024
@@ -46,7 +46,7 @@
   id: ewaf2025
   name: European Workshop on Algorithmic Fairness
   link: https://2025.ewaf.org/
-  deadline: '2024-03-15 23:59:59'
+  deadline: '2024-03-15 23:59:00'
   timezone: UTC-12
   start: '2024-07-01 00:00:00'
   date: June 30 - July 2, 2025
@@ -90,8 +90,8 @@
   id: facct2025
   name: ACM Conference on Fairness, Accountability, and Transparency
   link: https://facctconference.org/2025/
-  deadline: '2025-01-22 23:59:59'
-  abstract_deadline: '2025-01-15 23:59:59'
+  deadline: '2025-01-22 23:59:00'
+  abstract_deadline: '2025-01-15 23:59:00'
   timezone: UTC-12
   start: '2025-06-23 00:00:00'
   date: June 23 - June 26, 2025
@@ -106,8 +106,8 @@
   id: aies2025
   name: 8th AAAI/ACM Conference on AI, Ethics, and Society
   link: https://www.aies-conference.com/2025/
-  deadline: '2025-05-23 23:59:59'
-  abstract_deadline: '2025-05-16 23:59:59'
+  deadline: '2025-05-23 23:59:00'
+  abstract_deadline: '2025-05-16 23:59:00'
   timezone: UTC-12
   start: '2025-10-20 00:00:00'
   date: October 20 - October 22, 2025
@@ -122,7 +122,7 @@
   id: aies2024
   name: 7th AAAI/ACM Conference on AI, Ethics, and Society
   link: https://www.aies-conference.com/2024/
-  deadline: '2024-05-14 23:59:59'
+  deadline: '2024-05-14 23:59:00'
   timezone: UTC-12
   start: '2024-10-21 00:00:00'
   date: October 21 - October 23, 2024
@@ -151,7 +151,7 @@
   id: ewaf2024
   name: European Workshop on Algorithmic Fairness
   link: https://sites.google.com/view/ewaf24/
-  deadline: '2024-03-15 23:59:59'
+  deadline: '2024-03-15 23:59:00'
   timezone: UTC-12
   start: '2024-07-01 00:00:00'
   date: July 1 - July 3, 2024
@@ -165,8 +165,8 @@
   id: facct2024
   name: ACM Conference on Fairness, Accountability, and Transparency
   link: https://facctconference.org/2024/
-  deadline: '2024-01-22 23:59:59'
-  abstract_deadline: '2024-01-15 23:59:59'
+  deadline: '2024-01-22 23:59:00'
+  abstract_deadline: '2024-01-15 23:59:00'
   timezone: UTC-12
   start: '2024-06-03 00:00:00'
   date: June 3 - June 6, 2024
@@ -181,7 +181,7 @@
   id: aies2023
   name: 6th AAAI/ACM Conference on AI, Ethics, and Society
   link: https://www.aies-conference.com/2023/
-  deadline: '2023-03-15 23:59:59'
+  deadline: '2023-03-15 23:59:00'
   timezone: UTC-12
   start: '2023-08-09 00:00:00'
   date: August 9 - August 11, 2023
@@ -195,8 +195,8 @@
   id: facct2023
   name: ACM Conference on Fairness, Accountability, and Transparency
   link: https://facctconference.org/2023/index.html
-  deadline: '2023-02-06 23:59:59'
-  abstract_deadline: '2023-01-30 23:59:59'
+  deadline: '2023-02-06 23:59:00'
+  abstract_deadline: '2023-01-30 23:59:00'
   timezone: UTC-12
   start: '2023-06-12 00:00:00'
   date: June 12 - June 15, 2023
@@ -211,7 +211,7 @@
   id: ewaf2023
   name: European Workshop on Algorithmic Fairness
   link: https://sites.google.com/view/ewaf23/
-  deadline: '2023-02-09 23:59:59'
+  deadline: '2023-02-09 23:59:00'
   timezone: UTC-12
   start: '2023-06-07 00:00:00'
   date: June 7 - June 9, 2023
