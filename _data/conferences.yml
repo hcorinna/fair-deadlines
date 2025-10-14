@@ -1,4 +1,19 @@
 ---
+
+- title: EWAF
+  year: 2025
+  id: ewaf2025
+  name: European Workshop on Algorithmic Fairness
+  link: https://2025.ewaf.org/
+  deadline: '2024-03-15 23:59:59'
+  timezone: UTC-12
+  start: '2024-07-01 00:00:00'
+  date: June 30 - July 2, 2025
+  place: Eindhoven, The Netherlands
+  flag: 1F1F3-1F1F1
+  cat: conference
+  sub: AIE
+
 - title: ICWSM
   year: 2026
   id: icwsm2026
