@@ -1,4 +1,78 @@
 ---
+- title: CSCW
+  year: 2022
+  id: cscw2022
+  name: 25th ACM conference on computer-supported cooperative work and social computing
+  link: https://cscw.acm.org/2022/
+  deadline: '2021-07-15 23:58:59'
+  timezone: UTC-12
+  start: '2022-11-08 00:00:00'
+  date: November 8 - November 22, 2022
+  place: Online
+  cat: conference
+  sub: [CSS, AIE]
+  note: '<b>NOTE</b>: Virtual conference. There are multiple submission rounds.'
+
+- title: CSCW
+  year: 2023
+  id: cscw2023
+  name: 26th ACM conference on computer-supported cooperative work and social computing
+  link: https://cscw.acm.org/2023/
+  deadline: '2022-07-15 23:58:59'
+  timezone: UTC-12
+  start: '2023-10-14 00:00:00'
+  date: October 14 - October 18, 2023
+  place: Minneapolis, Minnesota, USA, and online
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: [CSS, AIE]
+  note: '<b>NOTE</b>: There are multiple submission rounds.'
+
+- title: CSCW
+  year: 2024
+  id: cscw2024
+  name: 27th ACM conference on computer-supported cooperative work and social computing
+  link: https://cscw.acm.org/2024/
+  deadline: '2023-07-18 23:58:59'
+  timezone: UTC-12
+  start: '2024-11-09 00:00:00'
+  date: November 9 - November 13, 2024
+  place: San José, Costa Rica
+  flag: 1F1E8-1F1F7
+  cat: conference
+  sub: [CSS, AIE]
+  note: '<b>NOTE</b>: There are multiple submission rounds.'
+
+- title: CSCW
+  year: 2025
+  id: cscw2025
+  name: 28th ACM conference on computer-supported cooperative work and social computing
+  link: https://cscw.acm.org/2025/
+  deadline: '2024-07-02 23:58:59'
+  timezone: UTC-12
+  start: '2025-10-18 00:00:00'
+  date: October 18 - October 22, 2025
+  place: Bergen, Norway
+  flag: 1F1F3-1F1F4
+  cat: conference
+  sub: [CSS, AIE]
+  note: '<b>NOTE</b>: There are multiple submission rounds.'
+
+- title: CSCW
+  year: 2026
+  id: cscw2026
+  name: 29th ACM conference on computer-supported cooperative work and social computing
+  link: https://cscw.acm.org/2026/
+  deadline: '2025-05-14 23:58:59'
+  timezone: UTC-12
+  start: '2025-10-01 00:00:00'
+  date: October 2026
+  place: USA (city TBD)
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: [CSS, AIE]
+  note: '<b>NOTE</b>: There are multiple submission rounds.'
+
 - title: CHI
   year: 2026
   id: chi2026
