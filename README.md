@@ -9,7 +9,7 @@ Contributions are very welcome!
 To add or update a deadline:
 - Fork the repository
 - Update `_data/conferences.yml`
-- If it is a conference (): Make sure it has the `title` (abbreviation), `year`, `id`,  `name` (full name), `link`, `deadline`, `timezone`, `date`, `start`, `place`, `sub`, `cat: conference` attributes
+- If it is a conference: Make sure it has the `title` (abbreviation), `year`, `id`,  `name` (full name), `link`, `deadline`, `timezone`, `date`, `start`, `place`, `sub`, `cat: conference` attributes
     + See available timezone strings [here](https://momentjs.com/timezone/).
     + In case the conference is not happening online, add the `flag` attribute. Use the flag unicode, which you can for example find [here](https://openmoji.org/).
 - If it is a special issue: Make sure it has the `title`, `year` (only used for calendar entry), `id`,  `name` (journal name), `link`, `deadline`, `timezone`, `start` (same as deadline), `sub`, `cat: specialissue` attributes
@@ -18,13 +18,17 @@ To add or update a deadline:
 
 ## Local setup
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) (3.x or 4.x) and [Bundler](https://bundler.io/) installed on your system, do the following:
 
 ```bash
 $ cd <your-repo-name>
 $ bundle install
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --future
 ```
+
+Then open <http://localhost:4000/fair-deadlines/>. The `--future` flag makes sure entries with future dates are included in the calendar export.
+
+Note: the live site is built by GitHub Pages from the `gh-pages` branch, which uses its own Jekyll version and ignores the `Gemfile`. The `Gemfile` here uses plain Jekyll 4 so that local development also works on Ruby 4 (the `github-pages` gem does not).
 
 ## Origin
 
