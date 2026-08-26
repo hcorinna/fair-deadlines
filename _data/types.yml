@@ -3,6 +3,8 @@
   sub: AIE
 - name: Computational Social Science
   sub: CSS
+- name: Digital Humanities
+  sub: DH
 - name: Mechanism Design
   sub: MD
 - name: Machine Learning
