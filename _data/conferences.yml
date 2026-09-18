@@ -1,4 +1,34 @@
 ---
+- title: SEASON
+  year: 2027
+  id: season2027
+  name: Annual Conference of the Search Engines and Society Network
+  link: https://searchenginesandsociety.net/
+  deadline: '2027-04-30 23:59:00'
+  timezone: UTC-12
+  start: '2027-09-15 00:00:00'
+  date: September 15 - September 17, 2027
+  place: Lund, Sweden
+  flag: 1F1F8-1F1EA
+  cat: conference
+  sub: [IR, CSS]
+  note: '<b>NOTE</b>: Deadline to be confirmed (placeholder based on last year''s schedule). Abstract-based submissions (presentations, interactive sessions, and posters).'
+
+- title: SEASON
+  year: 2026
+  id: season2026
+  name: Annual Conference of the Search Engines and Society Network
+  link: https://searchenginesandsociety.net/season-2026/
+  deadline: '2026-05-10 23:59:00'
+  timezone: UTC-12
+  start: '2026-09-15 00:00:00'
+  date: September 15 - September 17, 2026
+  place: Hamburg, Germany
+  flag: 1F1E9-1F1EA
+  cat: conference
+  sub: [IR, CSS]
+  note: '<b>NOTE</b>: Deadline was extended from April 30 to May 10, 2026. Abstract-based submissions (presentations, interactive sessions, and posters).'
+
 - title: CHIIR
   year: 2027
   id: chiir2027
