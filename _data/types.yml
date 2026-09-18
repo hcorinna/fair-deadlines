@@ -5,7 +5,13 @@
   sub: CSS
 - name: Digital Humanities
   sub: DH
-- name: Mechanism Design
+- name: Natural Language Processing
+  sub: NLP
+- name: Information Retrieval & Recommender Systems
+  sub: IR
+- name: Human-Computer Interaction
+  sub: HCI
+- name: Economics & Computation
   sub: MD
 - name: Machine Learning
   sub: ML

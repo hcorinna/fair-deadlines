@@ -1,4 +1,277 @@
 ---
+- title: CHIIR
+  year: 2027
+  id: chiir2027
+  name: ACM SIGIR Conference on Human Information Interaction and Retrieval
+  link: https://chiir2027.github.io/
+  deadline: '2026-10-15 23:59:00'
+  abstract_deadline: '2026-10-08 23:59:00'
+  timezone: UTC-12
+  start: '2027-03-07 00:00:00'
+  date: March 7 - March 11, 2027
+  place: Berlin, Germany
+  flag: 1F1E9-1F1EA
+  cat: conference
+  sub: [IR, HCI]
+  note: '<b>NOTE</b>: Mandatory abstract deadline on October 8, 2026. Short papers, demos, and other tracks have later deadlines in October.'
+
+- title: NAACL
+  year: 2027
+  id: naacl2027
+  name: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+  link: https://2027.naacl.org/
+  deadline: '2026-10-12 23:59:00'
+  timezone: UTC-12
+  start: '2027-06-01 00:00:00'
+  date: June 1 - June 5, 2027
+  place: San Francisco, California, USA
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: NLP
+  note: '<b>NOTE</b>: Submission via the ACL Rolling Review October 2026 cycle (deadline shown); commitment to NAACL is due December 23, 2026.'
+
+- title: SIGIR
+  year: 2027
+  id: sigir2027
+  name: 50th International ACM SIGIR Conference on Research and Development in Information Retrieval
+  link: https://sigir2027.org/
+  deadline: '2027-01-21 23:59:00'
+  abstract_deadline: '2027-01-14 23:59:00'
+  timezone: UTC-12
+  start: '2027-07-18 00:00:00'
+  date: July 18 - July 24, 2027
+  place: San Jose, California, USA
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: IR
+  note: '<b>NOTE</b>: Mandatory abstract deadline on January 14, 2027.'
+
+- title: ACL
+  year: 2027
+  id: acl2027
+  name: 65th Annual Meeting of the Association for Computational Linguistics
+  link: https://2027.aclweb.org/
+  deadline: '2027-01-05 23:59:00'
+  timezone: UTC-12
+  start: '2027-08-17 00:00:00'
+  date: August 17 - August 22, 2027
+  place: Kyoto, Japan
+  flag: 1F1EF-1F1F5
+  cat: conference
+  sub: NLP
+  note: '<b>NOTE</b>: Deadline to be confirmed. Submission is via the ACL Rolling Review January 2027 cycle, whose exact deadline has not been published yet; the date shown is a placeholder based on last year''s January cycle.'
+
+- title: KDD
+  year: 2027
+  id: kdd2027
+  name: 33rd ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  link: https://kdd2027.kdd.org/
+  deadline: '2027-02-08 23:59:00'
+  timezone: UTC-12
+  start: '2027-08-01 00:00:00'
+  date: August 1 - August 5, 2027
+  place: San Jose, California, USA
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: DM
+  note: '<b>NOTE</b>: There are two submission cycles. The August 2026 cycle has passed (papers were due July 26, 2026); the February 2027 cycle is confirmed but its exact dates are TBD — the deadline shown is a placeholder based on last year''s February cycle.'
+
+- title: ECML-PKDD
+  year: 2027
+  id: ecmlpkdd2027
+  name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+  link: https://ecmlpkdd.org/2027/
+  deadline: '2027-03-15 23:59:00'
+  timezone: UTC-12
+  start: '2027-09-20 00:00:00'
+  date: September 20 - September 24, 2027
+  place: Eindhoven, The Netherlands
+  flag: 1F1F3-1F1F1
+  cat: conference
+  sub: ML
+  note: '<b>NOTE</b>: Deadline to be confirmed (placeholder based on the usual mid-March research-track deadline).'
+
+- title: WSDM
+  year: 2027
+  id: wsdm2027
+  name: 20th ACM International Conference on Web Search and Data Mining
+  link: https://wsdm-conference.org/2027/
+  deadline: '2026-08-24 23:59:00'
+  abstract_deadline: '2026-08-17 23:59:00'
+  timezone: UTC-12
+  start: '2027-02-15 00:00:00'
+  date: February 15 - February 19, 2027
+  place: Hong Kong, China
+  flag: 1F1ED-1F1F0
+  cat: conference
+  sub: [DM, IR]
+
+- title: EMNLP
+  year: 2026
+  id: emnlp2026
+  name: Conference on Empirical Methods in Natural Language Processing
+  link: https://2026.emnlp.org/
+  deadline: '2026-05-25 23:59:00'
+  timezone: UTC-12
+  start: '2026-10-24 00:00:00'
+  date: October 24 - October 29, 2026
+  place: Budapest, Hungary
+  flag: 1F1ED-1F1FA
+  cat: conference
+  sub: NLP
+  note: '<b>NOTE</b>: Submission was via the ACL Rolling Review May 2026 cycle.'
+
+- title: CIKM
+  year: 2026
+  id: cikm2026
+  name: 35th ACM International Conference on Information and Knowledge Management
+  link: https://cikm2026.diag.uniroma1.it/
+  deadline: '2026-05-23 23:59:00'
+  timezone: UTC-12
+  start: '2026-11-07 00:00:00'
+  date: November 7 - November 11, 2026
+  place: Rome, Italy
+  flag: 1F1EE-1F1F9
+  cat: conference
+  sub: [DM, IR]
+
+- title: ICDM
+  year: 2026
+  id: icdm2026
+  name: 26th IEEE International Conference on Data Mining
+  link: https://icdm2026.neu.edu.cn/
+  deadline: '2026-06-06 23:59:00'
+  timezone: UTC-12
+  start: '2026-11-12 00:00:00'
+  date: November 12 - November 15, 2026
+  place: Shenyang, China
+  flag: 1F1E8-1F1F3
+  cat: conference
+  sub: DM
+
+- title: ECAF
+  year: 2027
+  id: ecaf2027
+  name: 6th European Conference on Algorithmic Fairness (formerly EWAF)
+  link: https://ecafconference.org/
+  deadline: '2027-04-15 23:59:00'
+  timezone: UTC-12
+  start: '2027-08-25 00:00:00'
+  date: August 25 - August 27, 2027 (TBC)
+  place: Vilnius, Lithuania
+  flag: 1F1F1-1F1F9
+  cat: conference
+  sub: AIE
+  note: '<b>NOTE</b>: Deadline and dates to be confirmed. Vilnius has been announced as host, but the CfP is not out yet; the deadline shown is a placeholder based on last year''s schedule.'
+
+- title: RecSys
+  year: 2027
+  id: recsys2027
+  name: 21st ACM Conference on Recommender Systems
+  link: https://recsys.acm.org/recsys27/
+  deadline: '2027-04-20 23:59:00'
+  timezone: UTC-12
+  start: '2027-08-23 00:00:00'
+  date: August 23 - August 27, 2027
+  place: Honolulu, Hawaii, USA
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: IR
+  note: '<b>NOTE</b>: Deadline to be confirmed (placeholder based on the usual mid-April abstract deadline).'
+
+- title: WINE
+  year: 2026
+  id: wine2026
+  name: 22nd Conference on Web and Internet Economics
+  link: https://wine2026conf.github.io/
+  deadline: '2026-07-02 23:59:00'
+  timezone: UTC-12
+  start: '2026-12-01 00:00:00'
+  date: December 1 - December 4, 2026
+  place: Hong Kong, China
+  flag: 1F1ED-1F1F0
+  cat: conference
+  sub: MD
+
+- title: ICLR
+  year: 2027
+  id: iclr2027
+  name: 15th International Conference on Learning Representations
+  link: https://iclr.cc/Conferences/2027
+  deadline: '2026-09-25 23:59:00'
+  abstract_deadline: '2026-09-18 23:59:00'
+  timezone: UTC-12
+  start: '2027-04-26 00:00:00'
+  date: April 26 - April 30, 2027
+  place: San Francisco, California, USA
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 18, 2026. City to be confirmed (ICLR only states California, USA; the homepage shows the Moscone Center, San Francisco).'
+
+- title: AISTATS
+  year: 2027
+  id: aistats2027
+  name: 30th International Conference on Artificial Intelligence and Statistics
+  link: https://virtual.aistats.org/Conferences/2027/CallForPapers
+  deadline: '2026-10-06 23:59:00'
+  abstract_deadline: '2026-09-29 23:59:00'
+  timezone: UTC-12
+  start: '2027-05-03 00:00:00'
+  date: May 3 - May 6, 2027
+  place: Montreal, Canada
+  flag: 1F1E8-1F1E6
+  cat: conference
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 29, 2026.'
+
+- title: AAMAS
+  year: 2027
+  id: aamas2027
+  name: 26th International Conference on Autonomous Agents and Multiagent Systems
+  link: https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+  deadline: '2026-10-08 23:59:00'
+  abstract_deadline: '2026-10-01 23:59:00'
+  timezone: UTC-12
+  start: '2027-05-03 00:00:00'
+  date: May 3 - May 7, 2027
+  place: Hanoi, Vietnam
+  flag: 1F1FB-1F1F3
+  cat: conference
+  sub: [ML, MD]
+  note: '<b>NOTE</b>: Mandatory abstract deadline on October 1, 2026.'
+
+- title: CVPR
+  year: 2027
+  id: cvpr2027
+  name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  link: https://cvpr.thecvf.com/Conferences/2027
+  deadline: '2026-11-16 23:59:00'
+  abstract_deadline: '2026-11-10 23:59:00'
+  timezone: UTC-12
+  start: '2027-06-20 00:00:00'
+  date: June 20 - June 25, 2027
+  place: Seattle, Washington, USA
+  flag: 1F1FA-1F1F8
+  cat: conference
+  sub: CV
+  note: '<b>NOTE</b>: Mandatory paper registration deadline on November 10, 2026.'
+
+- title: CUI
+  year: 2027
+  id: cui2027
+  name: 9th ACM Conference on Conversational User Interfaces
+  link: https://cui.acm.org/2027/
+  deadline: '2027-02-01 23:59:00'
+  timezone: UTC-12
+  start: '2027-07-26 00:00:00'
+  date: July 26 - July 28, 2027
+  place: Swansea, Wales, UK
+  flag: 1F1EC-1F1E7
+  cat: conference
+  sub: [HCI, NLP]
+  note: '<b>NOTE</b>: Deadline to be confirmed. Submission dates have not been announced yet; all deadlines will be 23:59 AoE.'
+
 - title: CSCW
   year: 2027
   id: cscw2027
@@ -10,7 +283,7 @@
   date: October 2027 (TBD)
   place: TBD
   cat: conference
-  sub: [CSS, AIE]
+  sub: [HCI, CSS]
   note: '<b>NOTE</b>: CSCW has moved to a rolling submission model. There is no actual submission deadline; papers can be submitted at any time and are presented at the next CSCW after acceptance. The deadline shown here is a placeholder.'
 
 - title: DH
@@ -102,12 +375,12 @@
   place: Dublin, Ireland
   flag: 1F1EE-1F1EA
   cat: conference
-  sub: [DM, ML, AIE]
+  sub: [DM, AIE]
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 18, 2026.'
 
-- title: ICWSM
+- title: ICWSM (3rd round)
   year: 2027
-  id: icwsm2027
+  id: icwsm2027-r3
   name: 21st International AAAI Conference on Web and Social Media
   link: https://www.icwsm.org/2027/
   deadline: '2027-01-15 23:59:00'
@@ -118,7 +391,35 @@
   flag: 1F1EC-1F1E7
   cat: conference
   sub: [CSS]
-  note: '<b>NOTE</b>: There are multiple submission rounds. Deadlines are on May 15, 2026, September 15, 2026, and January 15, 2027.'
+  note: '<b>NOTE</b>: Final submission round for ICWSM 2027, and the only round for posters, demos, and dataset papers.'
+
+- title: ICWSM (2nd round)
+  year: 2027
+  id: icwsm2027-r2
+  name: 21st International AAAI Conference on Web and Social Media
+  link: https://www.icwsm.org/2027/
+  deadline: '2026-09-15 23:59:00'
+  timezone: UTC-12
+  start: '2027-05-01 00:00:00'
+  date: May 2027 (TBD)
+  place: Edinburgh, UK
+  flag: 1F1EC-1F1E7
+  cat: conference
+  sub: [CSS]
+
+- title: ICWSM (1st round)
+  year: 2027
+  id: icwsm2027-r1
+  name: 21st International AAAI Conference on Web and Social Media
+  link: https://www.icwsm.org/2027/
+  deadline: '2026-05-15 23:59:00'
+  timezone: UTC-12
+  start: '2027-05-01 00:00:00'
+  date: May 2027 (TBD)
+  place: Edinburgh, UK
+  flag: 1F1EC-1F1E7
+  cat: conference
+  sub: [CSS]
 
 - title: CHI
   year: 2027
@@ -132,7 +433,7 @@
   place: Pittsburgh, Pennsylvania, USA
   flag: 1F1FA-1F1F8
   cat: conference
-  sub: [AIE, CSS]
+  sub: [HCI, AIE, CSS]
   note: '<b>NOTE</b>: There is no separate abstract deadline.'
 
 - title: CHR
@@ -268,7 +569,7 @@
   date: November 8 - November 22, 2022
   place: Online
   cat: conference
-  sub: [CSS, AIE]
+  sub: [HCI, CSS]
   note: '<b>NOTE</b>: Virtual conference. There are multiple submission rounds.'
 
 - title: CSCW
@@ -283,7 +584,7 @@
   place: Minneapolis, Minnesota, USA, and online
   flag: 1F1FA-1F1F8
   cat: conference
-  sub: [CSS, AIE]
+  sub: [HCI, CSS]
   note: '<b>NOTE</b>: There are multiple submission rounds.'
 
 - title: CSCW
@@ -298,7 +599,7 @@
   place: San José, Costa Rica
   flag: 1F1E8-1F1F7
   cat: conference
-  sub: [CSS, AIE]
+  sub: [HCI, CSS]
   note: '<b>NOTE</b>: There are multiple submission rounds.'
 
 - title: CSCW
@@ -313,7 +614,7 @@
   place: Bergen, Norway
   flag: 1F1F3-1F1F4
   cat: conference
-  sub: [CSS, AIE]
+  sub: [HCI, CSS]
   note: '<b>NOTE</b>: There are multiple submission rounds.'
 
 - title: CSCW
@@ -328,7 +629,7 @@
   place: Salt Lake City, Utah, USA
   flag: 1F1FA-1F1F8
   cat: conference
-  sub: [CSS, AIE]
+  sub: [HCI, CSS]
   note: '<b>NOTE</b>: There are multiple submission rounds.'
 
 - title: CHI
@@ -343,7 +644,7 @@
   place: Barcelona, Spain
   flag: 1F1EA-1F1F8
   cat: conference
-  sub: [AIE, CSS]
+  sub: [HCI, AIE, CSS]
 
 - title: CHI
   year: 2025
@@ -357,7 +658,7 @@
   place: Yokohama, Japan
   flag: 1F1EF-1F1F5
   cat: conference
-  sub: [AIE, CSS]
+  sub: [HCI, AIE, CSS]
 
 - title: CHI
   year: 2024
@@ -371,7 +672,7 @@
   place: Honolulu, Hawaiʻi, USA
   flag: 1F1FA-1F1F8
   cat: conference
-  sub: [AIE, CSS]
+  sub: [HCI, AIE, CSS]
 
 - title: EWAF
   year: 2025
@@ -581,7 +882,7 @@
   place: Austin, Texas, USA
   flag: 1F1FA-1F1F8
   cat: conference
-  sub: [DM, ML, AIE]
+  sub: [DM, AIE]
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 6, 2022.'
 
 - title: Special Issue on Trustworthy Recommender Systems
@@ -593,7 +894,7 @@
   start: '2023-02-28 23:59:59'
   timezone: UTC-12
   cat: specialissue
-  sub: [AIE, ML, CSS]
+  sub: [AIE, IR]
 
 - title: CHI
   year: 2023
@@ -608,7 +909,7 @@
   place: Hamburg, Germany
   flag: 1F1E9-1F1EA
   cat: conference
-  sub: [AIE, CSS]
+  sub: [HCI, AIE, CSS]
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 8, 2022.'
 
 - title: AAAI
@@ -790,7 +1091,7 @@
   place: Amsterdam, Netherlands, and online
   flag: 1F1F3-1F1F1
   cat: conference
-  sub: [AIE, DM]
+  sub: [AIE, IR]
   note: '<b>NOTE</b>: FAccTRec is a venue for discussion, and no official proceedings will be published.'
 
 - title: CHI
@@ -806,7 +1107,7 @@
   place: New Orleans, Louisiana, USA
   flag: 1F1FA-1F1F8
   cat: conference
-  sub: [AIE, CSS]
+  sub: [HCI, AIE, CSS]
   note: '<b>NOTE</b>: Mandatory abstract deadline on Sep 02, 2021. More info <a href=''https://chi2022.acm.org/for-authors/presenting/papers/''>here</a>.'
 
 
@@ -863,7 +1164,7 @@
   date: November 1-5, 2021
   place: Online
   cat: conference
-  sub: DM
+  sub: [DM, IR]
 
 - title: ICDM
   year: 2021
@@ -906,7 +1207,7 @@
   place: Amsterdam, Netherlands, and online
   flag: 1F1F3-1F1F1
   cat: conference
-  sub: DM
+  sub: IR
   note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2021. More info <a href=''https://recsys.acm.org/recsys21/dates/''>here</a>.'
 
 - title: AAAI
@@ -937,7 +1238,7 @@
   date: May 3-7, 2021
   place: Online
   cat: conference
-  sub: ML
+  sub: [ML, MD]
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
 
 - title: AISTATS
@@ -967,7 +1268,7 @@
   place: Lyon, France
   flag: 1F1EB-1F1F7
   cat: conference
-  sub: DM
+  sub: [DM, AIE]
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
 - title: CVPR
@@ -1053,7 +1354,7 @@
   place: Online
   abstract_deadline: '2021-02-02 23:59:00'
   cat: conference
-  sub: DM
+  sub: IR
 
 - title: UAI
   year: 2021
@@ -1136,7 +1437,7 @@
   date: October 23 - October 27, 2021
   place: Online
   cat: conference
-  sub: [CSS, AIE]
+  sub: [HCI, CSS]
   note: '<b>NOTE</b>: There are multiple submission rounds. The first deadline is on October 15, 2020.'
 
 - title: ICWSM
